@@ -1,0 +1,224 @@
+body {
+    padding-top: 55px;
+    font-family: Arial, sans-serif;
+    background-color: rgb(224, 219, 216);
+}
+
+h1 {
+    font-size: 70px;
+}
+
+.welcome {
+    position: relative;
+    background-image: url('https://cdn.discordapp.com/attachments/789329212129411087/1116968871572803584/principal.png');
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    /* Ajuste a altura conforme necessário */
+}
+
+.welcome-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Cor de fundo escura com transparência */
+}
+
+.welcome-content {
+    width: 30%;
+    position: absolute;
+    top: 40%;
+    left: 29%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: left;
+    padding: 1%;
+}
+
+.images {
+    padding: 3%;
+}
+
+.images img {
+    width: 900px;
+    height: 600px;
+    border-radius: 3%;
+}
+
+.images h2 {
+    text-align: center;
+    padding: 2%;
+}
+
+.images h2:hover {
+    text-align: center;
+    padding: 2%;
+    color: rgb(102, 100, 76);
+    transition: 500ms;
+}
+
+.body_cards {
+    width: 80%;
+}
+
+.testimonial {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+.testimonial p {
+    font-size: 16px;
+    font-style: italic;
+}
+
+.cards img {
+    width: 100%;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.contact-form button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-icons a {
+    margin-right: 2%;
+}
+
+.espaco {
+    padding-top: 1000px;
+}
+
+/* css projetos */
+
+.project_template {
+    background-color: rgb(18, 18, 18);
+}
+
+.project_template h2 {
+    text-align: center;
+    padding: 2%;
+    color: rgb(155, 157, 160);
+
+}
+
+/* tiny slider */
+
+.slider {
+    width: 100%;
+    overflow: hidden;
+    overflow-x: auto;
+    position: relative;
+}
+
+.slider-inner {
+    display: flex;
+    white-space: nowrap;
+}
+
+.slider-inner div {
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    background-color: #f00;
+    color: #fff;
+}
+
+.slider-nav {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+}
+
+.slider-prev {
+    background-color: transparent;
+    height: 100%;
+    border: none;
+    color: white;
+    font-size: 24px;
+    transition: background-color 0.3s ease;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%);
+    cursor: pointer;
+    padding: 2%;
+}
+
+.slider-next {
+    background-color: transparent;
+    height: 100%;
+    border: none;
+    color: white;
+    font-size: 24px;
+    transition: background-color 0.3s ease;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%);
+    cursor: pointer;
+    padding: 2%;
+}
+
+.slider-prev:hover,
+.slider-next:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.projects_images img {
+    width: 100%;
+}
+
+.descriptions {
+    background: #2e2e2e;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    color: rgb(155, 157, 160);
+    margin: 5%;
+}
+
+.content h2 {
+    padding-bottom: 2.5%;
+}
+
+.divisoria {
+    background-color: rgb(18, 18, 18);
+    width: 100%;
+    padding: 1%;
+}
